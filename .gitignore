@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore PyCharm settings folder (if you use PyCharm)
+.idea/
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore Python cache files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.log
+
+# Ignore PyInstaller build output
+build/
+dist/
+*.spec
